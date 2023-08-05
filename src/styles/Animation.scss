@@ -1,0 +1,28 @@
+
+
+@keyframes animateSvg{
+    to{
+      transform: translate(-50%,-10px);
+    }
+}
+
+@keyframes upanddown{
+  to{
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes upupdowndown{
+  to{
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes animate{
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
